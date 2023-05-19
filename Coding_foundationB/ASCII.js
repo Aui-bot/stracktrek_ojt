@@ -35,7 +35,7 @@ class notepad{
   }
 
   enter(){
-    if(this.input.length > 0 && this.input.length < 2) {
+    if(this.input.length === 1) {
       console.log(`"Deleted"`);
     } else if (this.input.length === 0){
       console.error(`"Delete Error"`);
